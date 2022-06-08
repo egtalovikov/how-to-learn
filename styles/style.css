@@ -5,6 +5,12 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .header {
   display: flex;
   height: 100vh;
@@ -12,13 +18,14 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
 }
 
 .header__title {
   width: 730px;
   line-height: 96px;
-  font-size: 102px; 
-  margin: 0 0 0 64px;
+  font-size: 102px;
+  margin-left: 64px;
   font-weight: bold;
   align-self: center;
   z-index: 2;
@@ -36,13 +43,11 @@
 }
 
 .header__link {
+  color: #2f80ed;
   text-decoration: none;
 }
 
 .header__main-illustration {
-  background-image: url(../images/two_again.png);
-  background-size: cover;
-  background-position: center;
   position: absolute;
   height: 608px;
   width: 765px;
@@ -56,32 +61,30 @@
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
+  top: 64px;
   right: 0px;
   order: 5;
-  top: 64px;
   z-index: 0;
 }
 
-.logo_place_header {
+.logo {
   height: 32px;
   width: 228px;
   background-image: url("../images/logo_place_header.svg");
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
-  z-index: 2;
 }
 
-.description {
-  display: flex;
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
 }
 
 .two-columns {
   display: flex;
-  margin: auto;
+  margin: 100px auto auto;
   width: 80%;
   justify-content: center;
-  margin-top: 100px;
 }
 
 .two-columns__brief {
@@ -89,19 +92,19 @@
   line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
+  margin: 0;
+  font-weight: normal;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  flex-direction: column;
-  align-items: space-between;
   line-height: 34px;
   font-size: 24px;
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 }
 
 .two-columns__span-accent {
@@ -134,7 +137,6 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
   margin-bottom: 80px;
   z-index: 1;
 }
@@ -145,8 +147,7 @@
   font-weight: bold;
   width: 60%;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin: 100px 0 20px;
 }
 
 .section-title_theme_dark {
@@ -183,14 +184,9 @@
   margin-bottom: 20px;
 }
 
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .feynman {
   display: flex;
+  position: relative;
   height: 890px;
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
@@ -199,7 +195,6 @@
   background-color: #f2f2f2;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 
 .feynman__title {
@@ -207,9 +202,8 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin-top: 100px;
+  margin: 100px 0 70px;
   text-align: center;
-  margin-bottom: 70px;
 }
 
 .feynman__subtitle {
@@ -219,11 +213,12 @@
 }
 
 .feynman__link {
+  position: absolute;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
-  position: absolute;
+  color: #2f80ed;
   top: 50%;
   right: 48px;
 }
@@ -243,6 +238,68 @@
   background-image: url("../images/kaufman-triangle.svg");
   position: absolute;
   background-size: contain;
+  top: 0px;
   right: -210px;
   z-index: 0;
+}
+
+.footer {
+  display: flex;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer__columns {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 60px 0 40px 90px;
+}
+
+.logo_place_footer {
+  background-image: url("../images/logo_place_footer.svg");
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
 }
