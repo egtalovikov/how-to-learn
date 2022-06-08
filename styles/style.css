@@ -18,7 +18,6 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
-  overflow: hidden;
 }
 
 .header__title {
@@ -129,7 +128,7 @@
   margin-bottom: 90px;
 }
 
-.table_cell {
+.table__cell {
   width: 250px;
   margin-bottom: 60px;
 }
@@ -170,14 +169,14 @@
   margin-bottom: 80px;
 }
 
-.table_heading {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.table_text {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
