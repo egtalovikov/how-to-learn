@@ -130,13 +130,13 @@
 
 .table__cell {
   width: 250px;
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-bottom: 80px;
+  margin-top: 80px;
   z-index: 1;
 }
 
@@ -159,14 +159,12 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 60px;
   width: 60%;
   text-align: center;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  margin-bottom: 80px;
 }
 
 .table__heading {
@@ -287,7 +285,7 @@
   color: white;
 }
 
-.footer__column {
+.footer__column-links {
   display: flex;
   flex-direction: column;
 }
