@@ -1,0 +1,10 @@
+.cards__item {
+  max-width: 240px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.cards__item:nth-child(3n+2) {
+  margin-left: 100px;
+  margin-right: 100px;
+}
