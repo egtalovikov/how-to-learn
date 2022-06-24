@@ -1,4 +1,5 @@
 .resources__logo {
+  object-fit: contain;
   width: 270px;
   height: 38px;
 }

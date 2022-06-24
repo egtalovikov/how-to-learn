@@ -1,4 +1,5 @@
 .feynman {
+  box-sizing: border-box;
   display: flex;
   position: relative;
   min-height: 890px;

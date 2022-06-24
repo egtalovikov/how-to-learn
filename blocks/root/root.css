@@ -4,18 +4,3 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-
-a:hover {
-  opacity: 0.8;
-}

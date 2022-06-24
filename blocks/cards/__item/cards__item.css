@@ -1,5 +1,5 @@
 .cards__item {
-  max-width: 240px;
+  width: 240px;
   margin-top: 60px;
   text-align: center;
 }

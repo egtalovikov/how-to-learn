@@ -1,8 +1,9 @@
 .header__main-illustration {
+  object-fit: cover;
   position: absolute;
   height: 608px;
   width: 765px;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   z-index: 1;
 }
