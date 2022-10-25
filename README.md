@@ -6,7 +6,7 @@
     <img alt="Made by: egtalovikov" src="https://img.shields.io/badge/made%20by-egtalovikov-blue" />
 </p>
 
-Научиться учиться - это проектная работа по профессии "Веб-разработчик" в [Яндекс Практикумe](https://praktikum.yandex.ru "Яндекс Практикум").
+Научиться учиться - это первая проектная работа по профессии "Веб-разработчик" в [Яндекс Практикумe](https://praktikum.yandex.ru "Яндекс Практикум").
 
 **Ссылка на проект: [GitHub Pages](https://egtalovikov.github.io/how-to-learn/)**
 
